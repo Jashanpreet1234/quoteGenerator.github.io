@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+   background-image: url("pink.jpg");
+}
+header {
+    text-align: center;
+    background:powderblue;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+#quote{
+    text-align: center;
+    background: #dde1ff;
+    padding: 25px;
+    min-height: 40px;
+    margin-bottom: 20px;
+    border-radius: 15pt;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+} 
+
+
+h1 {
+    font-size: 75px;
+    font-family: sans-serif;
+    font-family:cursive;
+    text-align: center;
+  }
+
+button {
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background:powderblue;
+    color: rgb(0, 0, 0);
+    border: transparent;
+    margin: auto;
+    cursor: pointer;
+}
+#setInspirations {
+    font-size: 16px;
+    font-weight: 800;
+} 
+
+ body{
+    min-height:100vh;
+    transition: 1.5s;
+    transition-timing-function: ease-in;
+    background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8);
+  }
+ 
+  #quoteText{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1pt;
+  }
+  #author{
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+    
